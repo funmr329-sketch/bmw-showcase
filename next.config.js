@@ -13,9 +13,6 @@ const nextConfig = {
     ],
     formats: ['image/avif', 'image/webp'],
   },
-  experimental: {
-    optimizePackageImports: ['lucide-react', '@react-three/drei'],
-  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

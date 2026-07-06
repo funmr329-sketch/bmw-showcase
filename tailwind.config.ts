@@ -26,8 +26,8 @@ const config: Config = {
         border: 'var(--border)',
       },
       fontFamily: {
+        sans: ['var(--font-body)', 'Inter', 'system-ui', 'sans-serif'],
         display: ['var(--font-display)', 'Inter', 'system-ui', 'sans-serif'],
-        body: ['var(--font-body)', 'Inter', 'system-ui', 'sans-serif'],
       },
       fontSize: {
         'fluid-xs': 'clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem)',
