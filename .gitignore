@@ -1,0 +1,33 @@
+.next
+node_modules
+public/videos
+public/models
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+
+# Dependencies
+node_modules/
+
+# Build
+.next/
+out/
+
+# Misc
+.DS_Store
+*.pem
+*.log
+
+# Debug
+npm-debug.log*
+
+# Local env files
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
