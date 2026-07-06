@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, Mail, Phone, User, Send, CheckCircle } from 'lucide-react';
 import { bmwModels } from '@/lib/bmwModels';
-import { cn } from '@/lib/utils';
 
 export function BookingForm() {
   const [submitted, setSubmitted] = useState(false);
